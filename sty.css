@@ -1,0 +1,38 @@
+label{
+    display: inline-block;
+    padding: 8px;
+}
+body{
+    text-align: center;
+    background-image: url('bng.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    text-align: center;
+    background-color: rgb(134, 250, 248);
+    margin: 50px 250px 50px 250px;
+   border-radius: 50px;
+}
+fieldset{
+    align-items: center;
+    size: cover;
+}
+h1{
+    text-align: center;
+}
+#submit{
+    padding: 10px;
+}
+input[type="submit"]{
+    background-color: rgb(238, 204, 50);
+}
+input[type="submit"]:hover{
+    background-color: greenyellow;
+}
+
+
+
+about{
+    padding:"12px";
+}

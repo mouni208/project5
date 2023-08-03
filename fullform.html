@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sty.css">
+    <script src="https://kit.fontawesome.com/2adf4c4e6a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form action="respond.html">
+        <marquee direction="right"><h1>REGISTRATION FORM</h1></marquee>
+        <fieldset>
+            <legend >Enter your details</legend> 
+            <label for="name"><i class="fa-solid fa-address-book"></i>Full name:</lable><br>
+            <input type="text" name="name" required="">
+            <label for="Email"><i class="fa-solid fa-envelope"></i>Your Email:</lable><br>
+            <input type="email" name="Email" required="">
+            <label for="phone"><i class="fa-solid fa-square-phone"></i>mobilenumber</lable><br>
+            <input type="tel" name="tel" required="">
+            <label for="Gender">Gender:</lable>
+            <select id="gender">
+               <option value="female">Female</option>
+               <option value="male">male</option>
+               <option value="others">others</option>
+                </select><br>
+        <label for="subject"><i class="fa-solid fa-book"></i>Choose a sub</label>
+        <select name="subject">
+            <optgroup label="Biology">
+                <option value="botnay">Botnay</option>
+                    <option value="zoology">Zoology</option>
+                </option>
+            </optgroup>
+            <optgroup label="program lang">
+                <option value="python">python</option>
+                    <option value="java">java</option>
+                </option>
+            </optgroup>
+        </select><br>
+        <label for="Indoor Games"><h4>select game</h4></label><br>
+        <input type="checkbox" id="game1" name="game1" value="Carroms">
+            <label for="game1"><i class="fa-solid fa-chess"></i>Chess</label><br>
+
+            <input type="checkbox" id="game2" name="game2" value="Carroms">
+            <label for="game2">carroms</label><br>
+            
+            <input type="checkbox" id="game3" name="game3" value="Carroms">
+            <label for="game3">Sudoku</label><br>
+
+
+            <label for="favcolor">Select your favoritecolor:</label>
+            <input type="color" id="favcolor" name="favcolor"><br>
+
+            <label for="birthday"><i class="fa-solid fa-cake-candles"></i>Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br>
+            
+            <label for="birthdaytime">Birthday (date and time):</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br>
+
+
+            <label for="bdaymonth">Birthday (month and year):</label>
+            <input type="month" id="bdaymonth" name="bdaymonth"><br>
+
+            <label for=" web languages"><h4>choose favourite</h4></label><br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html"><i class="fa-brands fa-html5"></i>HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css"><i class="fa-brands fa-css3-alt"></i>CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript"><i class="fa-brands fa-square-js"></i>JavaScript</label><br>
+
+            <label for="Zipcode">Zipcode</lable>
+            <input type="text" name="Zipcode" required><br><br>
+
+            <label for="about">About</label>
+            <textarea cols="30" rows="5" name="about"></textarea>
+            
+            <div id="submit">
+                <input type="submit" value="Register">
+            </div>
+        <input type="reset">
+     </fieldset>
+    </form>
+</body>
+</html>
